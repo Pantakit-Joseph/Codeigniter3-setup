@@ -110,5 +110,8 @@ user_guide_src/cilexer/dist/*
 user_guide_src/cilexer/pycilexer.egg-info/*
 
 # storage
-storage/
-!storage/**.gitignore
+storage/**
+!storage/**/
+!storage/**/.gitkeep
+
+
